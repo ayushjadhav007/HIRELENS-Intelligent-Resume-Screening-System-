@@ -1,10 +1,10 @@
 # HIRELENS-Intelligent-Resume-Screening-System-<br>
 HIRELENS is an AI-powered resume screening system designed to automate and simplify the candidate shortlisting process. The application analyzes PDF resumes and matches them against a given job description using Natural Language Processing (NLP) techniques, reducing manual screening effort and improving hiring efficiency
 
-**📌 Problem Statement<br>**
+# 📌 Problem Statement<br>
 Recruiters often spend significant time manually reviewing resumes, which is time-consuming and prone to bias. There is a need for an intelligent system that can automatically screen resumes, rank candidates, and highlight skill relevance efficiently.
 
-**✅ Solution Overview**
+# ✅ Solution Overview
 
 HIRELENS automates resume screening by:<br>
 - Extracting text from PDF resumes.<br>
@@ -14,7 +14,7 @@ HIRELENS automates resume screening by:<br>
 - Ranking candidates with a percentage match score (0–100%).<br>
 - Displaying results in a visually rich Streamlit dashboard.<br>
 
-**🎯 Key Features**
+# 🎯 Key Features
 
 📄 Upload multiple PDF resumes.<br>
 📝 Enter custom Job Description.<br>
@@ -25,7 +25,7 @@ HIRELENS automates resume screening by:<br>
 📈 Interactive UI with progress bars & tables.<br>
 🎨 Colorful and user-friendly dashboard.<br>
 
-**🛠️ Technologies Used**
+# 🛠️ Technologies Used
 
 - Python<br>
 - Streamlit (Frontend UI)<br>
@@ -34,7 +34,7 @@ HIRELENS automates resume screening by:<br>
 - pdfplumber (PDF text extraction)<br>
 - Pandas & NumPy (Data handling)<br>
 
-**🧠 Project Workflow**
+# 🧠 Project Workflow
 
 - Input Job Description<br>
 - Upload Resume PDFs<br>
@@ -46,7 +46,7 @@ HIRELENS automates resume screening by:<br>
 - Rank resumes<br>
 - Display results on Streamlit dashboard<br>
 
-**🗂️ Project Structure**
+# 🗂️ Project Structure
 
 Resume_Screening/<br>
 │
@@ -56,7 +56,7 @@ Resume_Screening/<br>
 ├── README.md           # Project documentation<br>
 └── sample_resumes/     # Sample resume PDFs<br>
 
-**⚙️ Installation & Setup**<br>
+# ⚙️ Installation & Setup<br>
 
 **1️⃣ Clone the Repository**<br>
 git clone https://github.com/ayushjadhav007/HIRELENS.git.<br>
