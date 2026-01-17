@@ -6,45 +6,45 @@ Recruiters often spend significant time manually reviewing resumes, which is tim
 
 **✅ Solution Overview**
 
-HIRELENS automates resume screening by:
--Extracting text from PDF resumes.
--Cleaning and preprocessing text using NLP.
--Converting text into numerical vectors using TF-IDF.
--Computing similarity scores between resumes and job descriptions.
--Ranking candidates with a percentage match score (0–100%).
--Displaying results in a visually rich Streamlit dashboard.
+HIRELENS automates resume screening by:<br>
+-Extracting text from PDF resumes.<br>
+-Cleaning and preprocessing text using NLP.<br>
+-Converting text into numerical vectors using TF-IDF.<br>
+-Computing similarity scores between resumes and job descriptions.<br>
+-Ranking candidates with a percentage match score (0–100%).<br>
+-Displaying results in a visually rich Streamlit dashboard.<br>
 
 **🎯 Key Features**
 
-📄 Upload multiple PDF resumes.
-📝 Enter custom Job Description.
-🧠 NLP-based text preprocessing.
-📊 TF-IDF & Cosine Similarity scoring.
-🎯 Match percentage out of 100.
-🏆 Resume ranking (Best to Least match).
-📈 Interactive UI with progress bars & tables.
-🎨 Colorful and user-friendly dashboard.
+📄 Upload multiple PDF resumes.<br>
+📝 Enter custom Job Description.<br>
+🧠 NLP-based text preprocessing.<br>
+📊 TF-IDF & Cosine Similarity scoring.<br>
+🎯 Match percentage out of 100.<br>
+🏆 Resume ranking (Best to Least match).<br>
+📈 Interactive UI with progress bars & tables.<br>
+🎨 Colorful and user-friendly dashboard.<br>
 
 **🛠️ Technologies Used**
 
--Python
--Streamlit (Frontend UI)
--Scikit-learn (TF-IDF, Cosine Similarity)
--NLTK (Text preprocessing)
--pdfplumber (PDF text extraction)
--Pandas & NumPy (Data handling)
+-Python<br>
+-Streamlit (Frontend UI)<br>
+-Scikit-learn (TF-IDF, Cosine Similarity)<br>
+-NLTK (Text preprocessing)<br>
+-pdfplumber (PDF text extraction)<br>
+-Pandas & NumPy (Data handling)<br>
 
 **🧠 Project Workflow**
 
--Input Job Description
--Upload Resume PDFs
--Extract text from resumes
--Clean & preprocess text (NLP)
--Apply TF-IDF vectorization
--Calculate cosine similarity
--Convert score to percentage (0–100)
--Rank resumes
--Display results on Streamlit dashboard
+-Input Job Description<br>
+-Upload Resume PDFs<br>
+-Extract text from resumes<br>
+-Clean & preprocess text (NLP)<br>
+-Apply TF-IDF vectorization<br>
+-Calculate cosine similarity<br>
+-Convert score to percentage (0–100)<br>
+-Rank resumes<br>
+-Display results on Streamlit dashboard<br>
 
 **🗂️ Project Structure**
 
