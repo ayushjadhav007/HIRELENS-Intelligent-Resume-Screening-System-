@@ -76,7 +76,7 @@ nltk.download('punkt')<br>
 Run this command in VS code terminal / CMD<br>
 python -m streamlit run app.py<br>
 
-**📊 How It Works (User Steps)**<br>
+# 📊 How It Works (User Steps)<br>
 
 1.Enter Job Description<br>
 2.Upload one or multiple PDF resumes<br>
@@ -87,7 +87,7 @@ python -m streamlit run app.py<br>
     - Skill relevance highlights<br>
     - Visual progress bars & charts<br>
 
-**🚀 Future Enhancements**<br>
+# 🚀 Future Enhancements<br>
 
 🔍 Skill-wise matching breakdown<br>
 🤖 BERT / Transformer-based embeddings<br>
@@ -97,7 +97,7 @@ python -m streamlit run app.py<br>
 ☁️ Cloud deployment (AWS / Streamlit Cloud)<br>
 
 
-**👤 Author**<br>
+# 👤 Author<br>
 
 Ayush Jadhav<br>
 Data Analytics & AI/ML Enthusiast<br>
