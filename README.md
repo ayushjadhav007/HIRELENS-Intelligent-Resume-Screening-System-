@@ -7,12 +7,12 @@ Recruiters often spend significant time manually reviewing resumes, which is tim
 **✅ Solution Overview**
 
 HIRELENS automates resume screening by:<br>
--Extracting text from PDF resumes.<br>
--Cleaning and preprocessing text using NLP.<br>
--Converting text into numerical vectors using TF-IDF.<br>
--Computing similarity scores between resumes and job descriptions.<br>
--Ranking candidates with a percentage match score (0–100%).<br>
--Displaying results in a visually rich Streamlit dashboard.<br>
+- Extracting text from PDF resumes.<br>
+- Cleaning and preprocessing text using NLP.<br>
+- Converting text into numerical vectors using TF-IDF.<br>
+- Computing similarity scores between resumes and job descriptions.<br>
+- Ranking candidates with a percentage match score (0–100%).<br>
+- Displaying results in a visually rich Streamlit dashboard.<br>
 
 **🎯 Key Features**
 
@@ -58,50 +58,50 @@ Resume_Screening/<br>
 
 **⚙️ Installation & Setup**<br>
 
-**1️⃣ Clone the Repository**
-git clone https://github.com/ayushjadhav007/HIRELENS.git.
-cd HIRELENS.
+**1️⃣ Clone the Repository**<br>
+git clone https://github.com/ayushjadhav007/HIRELENS.git.<br>
+cd HIRELENS.<br>
 
-**2️⃣ Install Required Libraries**
-pip install -r requirements.txt
-**If needed manually:**
-pip install streamlit scikit-learn nltk pdfplumber pandas numpy
+**2️⃣ Install Required Libraries**<br>
+pip install -r requirements.txt<br>
+**If needed manually:**<br>
+pip install streamlit scikit-learn nltk pdfplumber pandas numpy<br>
 
-**3️⃣ Download NLTK Data**
-import nltk
-nltk.download('stopwords')
-nltk.download('punkt')
+**3️⃣ Download NLTK Data**<br>
+import nltk<br>
+nltk.download('stopwords')<br>
+nltk.download('punkt')<br>
 
-**▶️ How to Run the Project**
-Run this command in VS code terminal / CMD
-python -m streamlit run app.py
+**▶️ How to Run the Project**<br>
+Run this command in VS code terminal / CMD<br>
+python -m streamlit run app.py<br>
 
-**📊 How It Works (User Steps)**
+**📊 How It Works (User Steps)**<br>
 
-1.Enter Job Description
-2.Upload one or multiple PDF resumes
-3.Click Analyze Resumes
-4.View:
-    -Match percentage (0–100%)
-    -Ranked candidate list
-    -Skill relevance highlights
-    -Visual progress bars & charts
+1.Enter Job Description<br>
+2.Upload one or multiple PDF resumes<br>
+3.Click Analyze Resumes<br>
+4.View:<br>
+    - Match percentage (0–100%)<br>
+    - Ranked candidate list<br>
+    - Skill relevance highlights<br>
+    - Visual progress bars & charts<br>
 
-**🚀 Future Enhancements**
+**🚀 Future Enhancements**<br>
 
-🔍 Skill-wise matching breakdown
-🤖 BERT / Transformer-based embeddings
-📄 Resume keyword highlighting
-📥 Export results to CSV/Excel
-🔐 User authentication
-☁️ Cloud deployment (AWS / Streamlit Cloud)  
+🔍 Skill-wise matching breakdown<br>
+🤖 BERT / Transformer-based embeddings<br>
+📄 Resume keyword highlighting<br>
+📥 Export results to CSV/Excel<br>
+🔐 User authentication<br>
+☁️ Cloud deployment (AWS / Streamlit Cloud)<br>
 
 
-**👤 Author**
+**👤 Author**<br>
 
-Ayush Jadhav
-Data Analytics & AI/ML Enthusiast
-📧 Email:ayush812jadhav@gmail.com
+Ayush Jadhav<br>
+Data Analytics & AI/ML Enthusiast<br>
+📧 Email:ayush812jadhav@gmail.com<br>
 
 
 
