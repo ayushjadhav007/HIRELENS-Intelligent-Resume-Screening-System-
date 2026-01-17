@@ -1,7 +1,7 @@
 # HIRELENS-Intelligent-Resume-Screening-System-<br>
 HIRELENS is an AI-powered resume screening system designed to automate and simplify the candidate shortlisting process. The application analyzes PDF resumes and matches them against a given job description using Natural Language Processing (NLP) techniques, reducing manual screening effort and improving hiring efficiency
 
-📌 Problem Statement<br>
+**📌 Problem Statement<br>**
 Recruiters often spend significant time manually reviewing resumes, which is time-consuming and prone to bias. There is a need for an intelligent system that can automatically screen resumes, rank candidates, and highlight skill relevance efficiently.
 
 **✅ Solution Overview**
@@ -55,6 +55,54 @@ Resume_Screening/<br>
 ├── requirements.txt    # Project dependencies<br>
 ├── README.md           # Project documentation<br>
 └── sample_resumes/     # Sample resume PDFs<br>
+
+**⚙️ Installation & Setup**<br>
+
+**1️⃣ Clone the Repository**
+git clone https://github.com/ayushjadhav007/HIRELENS.git.
+cd HIRELENS.
+
+**2️⃣ Install Required Libraries**
+pip install -r requirements.txt
+**If needed manually:**
+pip install streamlit scikit-learn nltk pdfplumber pandas numpy
+
+**3️⃣ Download NLTK Data**
+import nltk
+nltk.download('stopwords')
+nltk.download('punkt')
+
+**▶️ How to Run the Project**
+Run this command in VS code terminal / CMD
+python -m streamlit run app.py
+
+**📊 How It Works (User Steps)**
+
+1.Enter Job Description
+2.Upload one or multiple PDF resumes
+3.Click Analyze Resumes
+4.View:
+    -Match percentage (0–100%)
+    -Ranked candidate list
+    -Skill relevance highlights
+    -Visual progress bars & charts
+
+**🚀 Future Enhancements**
+
+🔍 Skill-wise matching breakdown
+🤖 BERT / Transformer-based embeddings
+📄 Resume keyword highlighting
+📥 Export results to CSV/Excel
+🔐 User authentication
+☁️ Cloud deployment (AWS / Streamlit Cloud)  
+
+
+**👤 Author**
+
+Ayush Jadhav
+Data Analytics & AI/ML Enthusiast
+📧 Email:ayush812jadhav@gmail.com
+
 
 
 
