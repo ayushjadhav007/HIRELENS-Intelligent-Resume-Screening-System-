@@ -27,24 +27,24 @@ HIRELENS automates resume screening by:<br>
 
 **🛠️ Technologies Used**
 
--Python<br>
--Streamlit (Frontend UI)<br>
--Scikit-learn (TF-IDF, Cosine Similarity)<br>
--NLTK (Text preprocessing)<br>
--pdfplumber (PDF text extraction)<br>
--Pandas & NumPy (Data handling)<br>
+- Python<br>
+- Streamlit (Frontend UI)<br>
+- Scikit-learn (TF-IDF, Cosine Similarity)<br>
+- NLTK (Text preprocessing)<br>
+- pdfplumber (PDF text extraction)<br>
+- Pandas & NumPy (Data handling)<br>
 
 **🧠 Project Workflow**
 
--Input Job Description<br>
--Upload Resume PDFs<br>
--Extract text from resumes<br>
--Clean & preprocess text (NLP)<br>
--Apply TF-IDF vectorization<br>
--Calculate cosine similarity<br>
--Convert score to percentage (0–100)<br>
--Rank resumes<br>
--Display results on Streamlit dashboard<br>
+- Input Job Description<br>
+- Upload Resume PDFs<br>
+- Extract text from resumes<br>
+- Clean & preprocess text (NLP)<br>
+- Apply TF-IDF vectorization<br>
+- Calculate cosine similarity<br>
+- Convert score to percentage (0–100)<br>
+- Rank resumes<br>
+- Display results on Streamlit dashboard<br>
 
 **🗂️ Project Structure**
 
