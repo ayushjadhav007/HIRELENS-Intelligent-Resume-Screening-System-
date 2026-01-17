@@ -1,7 +1,7 @@
-# HIRELENS-Intelligent-Resume-Screening-System-
+# HIRELENS-Intelligent-Resume-Screening-System-<br>
 HIRELENS is an AI-powered resume screening system designed to automate and simplify the candidate shortlisting process. The application analyzes PDF resumes and matches them against a given job description using Natural Language Processing (NLP) techniques, reducing manual screening effort and improving hiring efficiency
 
-📌 Problem Statement
+📌 Problem Statement<br>
 Recruiters often spend significant time manually reviewing resumes, which is time-consuming and prone to bias. There is a need for an intelligent system that can automatically screen resumes, rank candidates, and highlight skill relevance efficiently.
 
 **✅ Solution Overview**
